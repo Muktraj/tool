@@ -25,7 +25,7 @@
         }
 
         #text {
-            font-weight: 400;
+            font-weight: 100;
             color: rgb(38, 39, 75);
         }
 
@@ -44,6 +44,12 @@
             cursor: pointer;
             align-items: center;
             border: 1px solid rgb(71, 75, 255);
+        }
+
+        #text1 {
+            font-family: 'Space Grotesk', sans-serif;
+            font-weight: 700;
+            font-size: 38px;
         }
 
         #text2 {
@@ -98,6 +104,7 @@
 
         .i {
             width: 25px;
+            font-size: 17px;
             /* background-color: #040363; */
             /* bottom: 20px; */
         }
@@ -120,12 +127,11 @@
 
         .card {
             display: flex;
+            font-size: 17px;
             position: relative;
-            /* width: 300px;
-            height: 50px; */
             align-items: center;
-            padding: 30px;
-            height: 88px;
+            padding: 24px;
+            height: 72px;
             align-items: center;
             box-shadow: 5px 5px 9px black;
         }
@@ -136,9 +142,11 @@
             font-size: 27px;
         }
 
+
         #h1 {
             width: 100%;
             height: 80px;
+            /* padding: 25px; */
             position: relative;
             border: none;
             display: flex;
@@ -146,16 +154,19 @@
             align-items: center;
             /* -webkit-box-pack: center; */
             justify-content: center;
-            text-align: center;
+            align-items: center;
             cursor: pointer;
             background: rgb(255, 255, 255);
             border-radius: 8px;
             overflow: hidden;
             transition: all 0.5s ease 0s;
             box-shadow: rgba(71, 75, 255, 0.075) 0px 2px 3px;
+            padding-top: 10px;
+
 
         }
-        #h2{
+
+        #h2 {
             width: 100%;
             height: 80px;
             position: relative;
@@ -174,7 +185,7 @@
             box-shadow: rgba(71, 75, 255, 0.075) 0px 2px 3px;
         }
 
-        #h3{
+        #h3 {
             width: 100%;
             height: 80px;
             position: relative;
@@ -193,7 +204,7 @@
             box-shadow: rgba(71, 75, 255, 0.075) 0px 2px 3px;
         }
 
-        #h4{
+        #h4 {
 
             width: 100%;
             height: 80px;
@@ -214,7 +225,7 @@
 
         }
 
-        #h5{
+        #h5 {
             width: 100%;
             height: 80px;
             position: relative;
@@ -233,7 +244,7 @@
             box-shadow: rgba(71, 75, 255, 0.075) 0px 2px 3px;
         }
 
-        #h6{
+        #h6 {
             width: 100%;
             height: 80px;
             position: relative;
@@ -252,7 +263,7 @@
             box-shadow: rgba(71, 75, 255, 0.075) 0px 2px 3px;
         }
 
-        #h7{
+        #h7 {
             width: 100%;
             height: 80px;
             position: relative;
@@ -271,7 +282,8 @@
             box-shadow: rgba(71, 75, 255, 0.075) 0px 2px 3px;
 
         }
-        #h8{
+
+        #h8 {
             width: 100%;
             height: 80px;
             position: relative;
@@ -292,7 +304,7 @@
 
         }
 
-        #h9{
+        #h9 {
             width: 100%;
             height: 80px;
             position: relative;
@@ -313,9 +325,11 @@
 
         }
 
-        h6 {    font-family: 'Space Grotesk', sans-serif;
-            font-weight: 700;
-            font-size: 100%;
+        h6 {
+            font-family: 'Space Grotesk', sans-serif;
+            font-weight: 600;
+            font-size: 20px;
+            color: rgb(38, 39, 75)
         }
 
         /* #b3:hover {
@@ -326,92 +340,131 @@
             opacity: 0.6;
 
         } */
-        #h1:hover{
+        #h1:hover {
             background-image: url(text-tools.svg);
             background-repeat: no-repeat;
             background-size: 100px;
             background-position-x: center;
             opacity: 0.6;
         }
-        #h2:hover{
+
+        #h2:hover {
             background-image: url(image-tools.svg);
             background-repeat: no-repeat;
             background-size: 100px;
             background-position-x: center;
             opacity: 0.6;
         }
-        #h3:hover{
+
+        #h3:hover {
             background-image: url(css-tools.svg);
             background-repeat: no-repeat;
             background-size: 100px;
             background-position-x: center;
             opacity: 0.6;
         }
-        #h4:hover{
+
+        #h4:hover {
             background-image: url(coding-tools.svg);
             background-repeat: no-repeat;
             background-size: 100px;
             background-position-x: center;
             opacity: 0.6;
         }
-        #h5:hover{
+
+        #h5:hover {
             background-image: url(color-tools.svg);
             background-repeat: no-repeat;
             background-size: 100px;
             background-position-x: center;
             opacity: 0.6;
         }
-        #h6:hover{
+
+        #h6:hover {
             background-image: url(social-media-tools.svg);
             background-repeat: no-repeat;
             background-size: 100px;
             background-position-x: center;
             opacity: 0.6;
         }
-        #h7:hover{
+
+        #h7:hover {
             background-image: url(miscellaneous-tools.svg);
             background-repeat: no-repeat;
             background-size: 100px;
             background-position-x: center;
             opacity: 0.6;
         }
-        #tool{
+
+        #tool {
             box-sizing: border-box;
-         /* margin: 0px; */
-         min-width: 0px;
-         align-items: center;
-         justify-content: space-between;
+            /* margin: 0px; */
+            min-width: 0px;
+            align-items: center;
+            justify-content: space-between;
         }
-        #tool a{
+
+        #tool a {
             color: rgb(38, 39, 75);
+
         }
-        h2{
-            font-size: 20px;
-            font-weight: bold;
+
+        h2 {
+            font-size: 24px;
+            font-weight: 700;
             font-family: 'Space Grotesk', sans-serif;
-   
+            color: rgb(38, 39, 75);
+
+
         }
-        .box{
-            
+
+        .box {
+
             background-color: white;
             box-shadow: 2px 2px 4px black;
             border-radius: 8px;
-            padding: 10px;
+            padding: 20px;
+            width: 90%;
 
 
         }
-        #case{
+
+        #case {
             width: 50px;
         }
-        .text5{
+
+        .text5 {
             font-size: 17px;
             font-weight: 700;
             font-family: 'Space Grotesk', sans-serif;
         }
-        #text5{
+
+        #text5 {
             font-family: 'Space Grotesk', sans-serif;
+            font-size: 15px;
         }
-        
+
+        .heart {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .heart h6 {
+            font-size: 16px;
+            font-weight: 100;
+            color: blue;
+        }
+
+        .heart i {
+            opacity: 0.5;
+        }
+
+        #see {
+            font-weight: 100;
+            font-size: 18px;
+            color: blue;
+
+        }
     </style>
 </head>
 
@@ -564,51 +617,297 @@
         </div>
     </div>
 
-<br><br><br><br>
+    <br><br><br><br>
 
-   <div class="container d-flex" id="tool">
-    <a href=""><h2><span>#</span>Text Tools</h2></a>
-    <a href=""><h2>See all ></h2></a>
-   </div>
+    <div class="container d-flex" id="tool">
+        <a href="">
+            <h2><span>#</span>Text Tools</h2>
+        </a>
+        <a href="">
+            <h6 id="see">See all ></h6>
+        </a>
+    </div>
 
 
 
-<div class="container">
-    <div class="section">
-        <div class="row">
-            <div class="col-4">
-                <div class="box">
-                 <img src="case-converter.svg" id="case" alt="">
-                 <br><br><br>
-                 <h4 class="text5">Case converter</h4>
-                 <p id="text5">Convert your text or string to uppercase, lowercase, title case & sentence case</p>
+    <div class="container">
+        <div class="section">
+            <div class="row">
+                <div class="col-4">
+                    <div class="box">
+                        <img src="case-converter.svg" id="case" alt="">
+                        <br><br>
+                        <h4 class="text5">Case converter</h4>
+                        <p id="text5">Convert your text or string to uppercase, lowercase, title case & sentence case
+                        </p>
+                        <div class="heart">
+                            <span>
+                                <h6>open ></h6>
+                            </span> <span><i class="fa-regular fa-heart"></i></span>
+                        </div>
+                    </div>
                 </div>
-            </div>
-            <div class="col-4">
-                <div class="box">
-                    <img src="lorem-ipsum-generator.svg" id="case" alt="">
-                    <br><br><br>
-                    <h4 class="text5">lorem lpsum Generator</h4>
-                    <p id="text5">Convert your text or string to uppercase, lowercase, title case & sentence case</p>
-                   </div>
-            </div>
-            <div class="col-4">
-                <div class="box">
-                    <img src="letter-counter.svg" id="case" alt="">
-                    <br><br><br>
-                    <h4 class="text5">Letter Counter</h4>
-                    <p id="text5">Convert your text or string to uppercase, lowercase, title case & sentence case</p>
-                   </div>
+                <div class="col-4">
+                    <div class="box">
+                        <img src="lorem-ipsum-generator.svg" id="case" alt="">
+                        <br><br>
+                        <h4 class="text5">lorem lpsum Generator</h4>
+                        <p id="text5">Create your placeholder texts with desired number of paragraphs and properties</p>
+                        <div class="heart">
+                            <span>
+                                <h6>open ></h6>
+                            </span> <span><i class="fa-regular fa-heart"></i></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="box">
+                        <img src="letter-counter.svg" id="case" alt="">
+                        <br><br>
+                        <h4 class="text5">Letter Counter</h4>
+                        <p id="text5">Count letters, words and sentences in a text and analyze this numbers with common
+                            limits</p>
+                        <div class="heart">
+                            <span>
+                                <h6>open ></h6>
+                            </span> <span><i class="fa-regular fa-heart"></i></span>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
-</div>
+
+
+    <br>
 
 
 
+    <div class="container">
+        <div class="section">
+            <div class="row">
+                <div class="col-4">
+                    <div class="box">
+                        <img src="text-to-handwriting-converter.svg" id="case" alt="">
+                        <br><br>
+                        <h4 class="text5">Text to Handwriting Converter</h4>
+                        <p id="text5">Convert your text into handwriting with desired paper type and ink color and
+                            download as PDF</p>
+                        <div class="heart">
+                            <span>
+                                <h6>open ></h6>
+                            </span> <span><i class="fa-regular fa-heart"></i></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="box">
+                        <img src="multiple-whitespace-remover.svg" id="case" alt="">
+                        <br><br>
+                        <h4 class="text5">Multiple Whitespace Remover</h4>
+                        <p id="text5">Remove multiple whitespaces and line breaks in a text and clear unwanted
+                            characters
+                        </p>
+                        <div class="heart">
+                            <span>
+                                <h6>open ></h6>
+                            </span> <span><i class="fa-regular fa-heart"></i></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="box">
+                        <img src="google-fonts-pair-finder.svg" id="case" alt="">
+                        <br><br>
+                        <h4 class="text5">Google Fonts Pair Finder</h4>
+                        <p id="text5">Find font pairs which looks cool together on your designs, pages or apps as
+                            heading and body font
+                        </p>
+                        <div class="heart">
+                            <span>
+                                <h6>open ></h6>
+                            </span> <span><i class="fa-regular fa-heart"></i></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <div class="container">
+        <div class="col-4">
+            <div class="box">
+                <img src="bionic-reading-converter.svg" id="case" alt="">
+                <br><br>
+                <h4 class="text5">Bionic Reading Converter</h4>
+                <p id="text5">Convert your texts into Bionic Reading mode to read them faster than before
+                </p>
+                <div class="heart">
+                    <span>
+                        <h6>open ></h6>
+                    </span> <span><i class="fa-regular fa-heart"></i></span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br><br><br><br><br>
+    <div class="container d-flex" id="tool">
+        <a href="">
+            <h2><span>#</span>Text Tools</h2>
+        </a>
+        <a href="">
+            <h6 id="see">See all ></h6>
+        </a>
+    </div>
+    <br><br>
+
+    <div class="container">
+        <div class="section">
+            <div class="row">
+                <div class="col-4">
+                    <div class="box">
+                        <img src="image-cropper.svg" id="case" alt="">
+                        <br><br>
+                        <h4 class="text5">Image Cropper</h4>
+                        <p id="text5">Crop unwanted parts of images and download desired part of the image as a new file
+                        </p>
+                        <div class="heart">
+                            <span>
+                                <h6>open ></h6>
+                            </span> <span><i class="fa-regular fa-heart"></i></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="box">
+                        <img src="image-filters.svg" id="case" alt="">
+                        <br><br>
+                        <h4 class="text5">Image Filters</h4>
+                        <p id="text5">Apply different filters to images and change color balance and distribution of the it                        </p>
+                        <div class="heart">
+                            <span>
+                                <h6>open ></h6>
+                            </span> <span><i class="fa-regular fa-heart"></i></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="box">
+                        <img src="image-resizer.svg" id="case" alt="">
+                        <br><br>
+                        <h4 class="text5">Image Resizer</h4>
+                        <p id="text5">Resize any image to desired width and height either by protecting aspect ratio or not
+                        </p>
+                        <div class="heart">
+                            <span>
+                                <h6>open ></h6>
+                            </span> <span><i class="fa-regular fa-heart"></i></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <div class="container">
+        <div class="section">
+            <div class="row">
+                <div class="col-4">
+                    <div class="box">
+                        <img src="image-average-color-finder.svg" id="case" alt="">
+                        <br><br>
+                        <h4 class="text5">Image Average Color Finder</h4>
+                        <p id="text5">Calculate average and dominant color of an image by ignoring transparency
+                        </p>
+                        <div class="heart">
+                            <span>
+                                <h6>open ></h6>
+                            </span> <span><i class="fa-regular fa-heart"></i></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="box">
+                        <img src="image-color-extractor.svg" id="case" alt="">
+                        <br><br>
+                        <h4 class="text5">Image Color Extractor</h4>
+                        <p id="text5">Extract all colors from an image and get color codes and details of this colors as a list                        </p>
+                        <div class="heart">
+                            <span>
+                                <h6>open ></h6>
+                            </span> <span><i class="fa-regular fa-heart"></i></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="box">
+                        <img src="image-color-picker.svg" id="case" alt="">
+                        <br><br>
+                        <h4 class="text5">Image Color Picker</h4>
+                        <p id="text5">Pick any color from an image with an eyedropper and get detailed info about the color you picked
+                        </p>
+                        <div class="heart">
+                            <span>
+                                <h6>open ></h6>
+                            </span> <span><i class="fa-regular fa-heart"></i></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <div class="container">
+        <div class="section">
+            <div class="row">
+                <div class="col-4">
+                    <div class="box">
+                        <img src="svg-blob-generator.svg" id="case" alt="">
+                        <br><br>
+                        <h4 class="text5">SVG Blob Generator</h4>
+                        <p id="text5">Generate random SVG blobs with desired complexity and get SVG as code or file
+                        </p>
+                        <div class="heart">
+                            <span>
+                                <h6>open ></h6>
+                            </span> <span><i class="fa-regular fa-heart"></i></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="box">
+                        <img src="svg-pattern-generator.svg" id="case" alt="">
+                        <br><br>
+                        <h4 class="text5">SVG Pattern Generator</h4>
+                        <p id="text5">Generate SVG patterns with different shapes and download it as SVG or an image file                        </p>
+                        <div class="heart">
+                            <span>
+                                <h6>open ></h6>
+                            </span> <span><i class="fa-regular fa-heart"></i></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="box">
+                        <img src="photo-censor (1).svg" id="case" alt="">
+                        <br><br>
+                        <h4 class="text5">Photo Censor</h4>
+                        <p id="text5">Censor photos and hide faces by pixellating/blurring them or by putting a black bar
+                        </p>
+                        <div class="heart">
+                            <span>
+                                <h6>open ></h6>
+                            </span> <span><i class="fa-regular fa-heart"></i></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
 
-<br><br><br><br><br><br><br><br><br>
+
+    <br><br><br><br><br><br><br><br><br>
 </body>
 
 </html>
